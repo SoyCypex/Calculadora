@@ -1,22 +1,21 @@
 package mx.edu.utez;
 
 public class Restar {
-    private double num;
-    private double num2;
-    public double calculaResta(double num, double num2) {
-        return num - num2;
+    private double numero;
+    private double numero2;
+    public double calculaResta(double numero, double numero2) {
+        return numero - numero2;
     }
-    public double getNum() {
-        return num;
+    public double getNumero() {return numero;
     }
-    public void setNum(double num) {
-        this.num = num;
+    public void setNumero(double numero) {
+        this.numero = numero;
     }
-    public double getNum2() {
-        return num2;
+    public double getNumero2() {
+        return numero2;
     }
-    public void setNum2(double num2) {
-        this.num2 = num2;
+    public void setNumero2(double numero2) {
+        this.numero2 = numero2;
     }
 }
 

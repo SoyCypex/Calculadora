@@ -3,7 +3,7 @@ package mx.edu.utez;
 public class Suma {
     private double numero, numero2;
     public double calculaSuma(double numero, double numero2) {
-        return numero - numero2;
+        return numero + numero2;
     }
 
     public double getNumero() {
